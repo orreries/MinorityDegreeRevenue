@@ -9,8 +9,3 @@ This is a complilation of analyses and visualizations on public institution reve
 
 #### 2. Overview of Public Institution Revenues from 2002 to 2022 Dashboard
 [Link to dashboard](https://public.tableau.com/views/PublicInstitutionsOverall/PWIDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-#### 3. Individual Graphs
-- Total Revenue per Student Scatterplot [Plot](https://public.tableau.com/views/TotalRevperStudent/Scatterplot?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- HBCU Government Funding Graph [Graph](https://public.tableau.com/views/HBCUGovernmentFunding/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- PWI Racial Demographics [Graph](https://public.tableau.com/shared/P2J46RZK8?:display_count=n&:origin=viz_share_link)
