@@ -54,7 +54,13 @@ summary(multi_revs)
 
 # model 1
 ls(revenue)
-revenue_mod1 <- revenue %>% select(-c("FederalFunding", "FederalFunding", "StudentFedAid_Percent","Year","instate_tuition", "Total_Students", "totdegree"))
+revenue_mod1 <- revenue %>% select(-c("FederalFunding", 
+                                      "FederalFunding", 
+                                      "StudentFedAid_Percent",
+                                      "Year",
+                                      "instate_tuition",
+                                      "Total_Students", 
+                                      "totdegree"))
 ls(revenue_mod1)
 
 # scatterplot
@@ -86,6 +92,16 @@ corrplot(cor_matrix,
          title = "Correlation Matrix",
          mar = c(0, 0, 1, 0))   
 
+# model 2 that adds more contextual variables
+multi_revs_full <- lm(totrev ~ Black_Degree +
+                                   hispanicdegrees +
+                                   Total_Students +
+                                   StudentFedAid_Percent +
+                                   instate_tuition +
+                                   FederalFunding,
+                      data = revenue)
+
+summary(multi_revs_full)
 
 # HBCU vs PWI
 setwd("C:/Users/...") 
